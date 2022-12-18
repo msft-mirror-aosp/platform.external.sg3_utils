@@ -1,12 +1,12 @@
 // Copyright 2022 The Android Open Source Project
 
 package {
-    default_applicable_licenses: ["LICENSE"],
+    default_applicable_licenses: ["external_sg3_utils_license"],
 }
 
 // See also https://spdx.org/licenses/
 license {
-    name: "LICENSE",
+    name: "external_sg3_utils_license",
     visibility: [":__subpackages__"],
     license_kinds: [
         "SPDX-license-identifier-BSD-2-Clause",
