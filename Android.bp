@@ -34,8 +34,8 @@ cc_defaults {
     local_include_dirs: [
         "include",
     ],
-    // Core only. See also https://source.android.com/docs/core/architecture/bootloader/partitions/product-interfaces.
-    system_ext_specific: true,
+    // vendor only. See also https://source.android.com/docs/core/architecture/bootloader/partitions/product-interfaces.
+    vendor: true,
     target: {
         host: {
             enabled: false,
