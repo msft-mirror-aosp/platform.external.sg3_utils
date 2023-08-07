@@ -1,4 +1,5 @@
 name: "sg3_utils"
+description: "Utilities that send SCSI commands to devices"
 third_party {
   url {
     type: GIT
